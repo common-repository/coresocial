@@ -1,0 +1,27 @@
+.d4p-settings-table {
+    .d4p-setting-wrapper {
+        &.d4p-setting-social_profiles {
+            > div.d4p-profile-element-wrapper {
+                border: 1px solid #CCC;
+                padding: 1em;
+                margin: 0 0 1em;
+
+                a {
+                    font-size: .9em;
+                }
+
+                label {
+                    display: block;
+                }
+
+                input {
+                    margin: 0 0 5px;
+                }
+
+                div {
+                    margin: 1em 0 0;
+                }
+            }
+        }
+    }
+}

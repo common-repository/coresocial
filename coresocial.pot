@@ -1,0 +1,1637 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural - Forms: nplurals = INTEGER; plural = EXPRESSION;\n"
+"Project-Id-Version: coresocial Lite\n"
+"POT-Creation-Date: 03/15/2024 03:43:22 PM\n"
+"Language-Team: Milan Petrovic <support@dev4press.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GD i18n 2.8; www.dev4press.com\n"
+
+#: core/display/Layouts.php:229
+msgid "%s Follower"
+msgid_plural "%s Followers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:231
+msgid "%s Fan"
+msgid_plural "%s Fans"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:233
+msgid "%s Subscriber"
+msgid_plural "%s subscribers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:235
+msgid "%s User"
+msgid_plural "%s Users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:237
+msgid "%s Member"
+msgid_plural "%s Members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:239
+msgid "%s Friend"
+msgid_plural "%s Friends"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:241
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/display/Layouts.php:243
+msgid "%s Patron"
+msgid_plural "%s Patrons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/panel/Dashboard.php:19
+#: core/admin/Help.php:64
+#: core/admin/Plugin.php:179
+msgid "Shared Items"
+msgstr ""
+
+#: core/admin/panel/Dashboard.php:26
+#: core/admin/Plugin.php:185
+msgid "Share Logs"
+msgstr ""
+
+#: core/admin/panel/Items.php:20
+#: core/admin/panel/Log.php:20
+msgid "Rows"
+msgstr ""
+
+#: core/admin/panel/Settings.php:20
+msgid "Basics"
+msgstr ""
+
+#: core/admin/panel/Settings.php:22
+msgid "Standard"
+msgstr ""
+
+#: core/admin/panel/Settings.php:24
+msgid "Basic settings for the plugin."
+msgstr ""
+
+#: core/admin/panel/Settings.php:27
+msgid "Data"
+msgstr ""
+
+#: core/admin/panel/Settings.php:29
+msgid "Control over the logging of sharing data into the database."
+msgstr ""
+
+#: core/admin/panel/Settings.php:32
+msgid "CSS and JS Files"
+msgstr ""
+
+#: core/admin/panel/Settings.php:34
+msgid "Control how and when the JS and CSS files are included in the page."
+msgstr ""
+
+#: core/admin/panel/Settings.php:37
+#: core/admin/Settings.php:790
+msgid "Display"
+msgstr ""
+
+#: core/admin/panel/Settings.php:39
+msgid "Control several global display related options"
+msgstr ""
+
+#: core/admin/panel/Settings.php:42
+#: core/admin/Settings.php:370
+#: core/admin/Settings.php:439
+msgid "Advanced"
+msgstr ""
+
+#: core/admin/panel/Settings.php:44
+msgid "More advanced settings that should not be changed for most websites."
+msgstr ""
+
+#: core/admin/panel/Settings.php:47
+#: core/admin/panel/Wizard.php:18
+#: core/admin/Help.php:78
+#: core/admin/Settings.php:765
+#: core/basic/Wizard.php:102
+msgid "Networks"
+msgstr ""
+
+#: core/admin/panel/Settings.php:48
+msgid "Social Networks"
+msgstr ""
+
+#: core/admin/panel/Settings.php:51
+msgid "Setup all the supported social networks, including colors and labels."
+msgstr ""
+
+#: core/admin/panel/Settings.php:54
+#: core/admin/Help.php:89
+msgid "Internal"
+msgstr ""
+
+#: core/admin/panel/Settings.php:56
+msgid "Setup additional elements controlled internally, not the external social networks."
+msgstr ""
+
+#: core/admin/panel/Settings.php:59
+msgid "Profiles"
+msgstr ""
+
+#: core/admin/panel/Settings.php:61
+msgid "Setup all the social networks profiles you might have and want to use."
+msgstr ""
+
+#: core/admin/panel/Settings.php:64
+msgid "Inline Styling"
+msgstr ""
+
+#: core/admin/panel/Settings.php:66
+msgid "Inline Share Method"
+msgstr ""
+
+#: core/admin/panel/Settings.php:68
+msgid "Control over the default styling for the Inline display method"
+msgstr ""
+
+#: core/admin/panel/Settings.php:71
+msgid "Inline Auto Embed"
+msgstr ""
+
+#: core/admin/panel/Settings.php:73
+msgid "Control over the auto embedding of the Inline share block."
+msgstr ""
+
+#: core/admin/panel/Tools.php:18
+msgid "Items Cleanup"
+msgstr ""
+
+#: core/admin/panel/Tools.php:21
+msgid "Cleanup"
+msgstr ""
+
+#: core/admin/panel/Tools.php:22
+msgid "Using this tool, can remove all pages from database with no shares logged."
+msgstr ""
+
+#: core/admin/panel/Wizard.php:15
+#: core/basic/Wizard.php:101
+msgid "Intro"
+msgstr ""
+
+#: core/admin/panel/Wizard.php:21
+#: core/basic/Wizard.php:103
+msgid "Miscellaneous"
+msgstr ""
+
+#: core/admin/panel/Wizard.php:24
+#: core/basic/Wizard.php:104
+msgid "Finish"
+msgstr ""
+
+#: core/admin/Help.php:65
+msgid "Here you can see all the website pages where the share block has appeared, with the counts of the shares logged, and the online share counts (if enabled and supported)."
+msgstr ""
+
+#: core/admin/Help.php:66
+msgid "Item Actions"
+msgstr ""
+
+#: core/admin/Help.php:67
+msgid "For each item, you can view the actual page (and for posts you also have edit link). But, more importantly, for each item there are 3 actions: delete item (will remove item, counts and log from the database, resetting all the data for it to zero), clear (just remove logged data, item remains in the database) and action to add item to queue for getting online share counts. All 3 actions are available as bulk actions as well."
+msgstr ""
+
+#: core/admin/Help.php:72
+#: core/admin/Plugin.php:191
+msgid "Settings"
+msgstr ""
+
+#: core/admin/Help.php:73
+msgid "Sharing popup is displayed when user clicks on the share buttons. The size of the popup is important for desktop devices only."
+msgstr ""
+
+#: core/admin/Help.php:79
+msgid "All supported share networks are configured from this panel. For each network, you can change the network name and colors, and the label for the button. By default, text and icon use same color, and it is important to have good contrast between Primary and Text."
+msgstr ""
+
+#: core/admin/Help.php:80
+msgid "Networks disabled from this panel, will not appear in any other settings panel or blocks. Some networks support getting online counts from their respective APIs, and you need to enable which online count you want to get, and some may require additional configuration."
+msgstr ""
+
+#: core/admin/Help.php:81
+msgid "For Twitter"
+msgstr ""
+
+#: core/admin/Help.php:82
+msgid "You can set your account name to be included at the end of each tweet, and you can add one or more hashtags. Both of these can be expanded for individual posts via post meta box."
+msgstr ""
+
+#: core/admin/Help.php:83
+msgid "For Facebook"
+msgstr ""
+
+#: core/admin/Help.php:84
+msgid "Facebook has two share dialog formats, and it is highly recommended to use Application Share Dialog. But, for that, you need to provide Application ID."
+msgstr ""
+
+#: core/admin/Help.php:90
+msgid "Additional share methods have similar settings to the main share networks, again with options to change name, label and colors."
+msgstr ""
+
+#: core/admin/Help.php:95
+msgid "Social Profiles"
+msgstr ""
+
+#: core/admin/Help.php:96
+msgid "From this panel you can add one or more online social networks or website profiles and links. Each added network requires selection of the network (this will control the color and icon for the button), give name to the profile and URL to link the button to. You can add more then one profile for the same network."
+msgstr ""
+
+#: core/admin/Help.php:101
+msgid "Inline Sharing"
+msgstr ""
+
+#: core/admin/Help.php:102
+msgid "Inline sharing block has default settings that are used as a basis for all the shared blocks. Styling settings can be changed for individual blocks, shortcodes or with individual function calls."
+msgstr ""
+
+#: core/admin/Help.php:103
+msgid "To automatically display share block, plugin depends on the theme using standard content filter to add shared block markup. That's why you need to select post types for auto embedding, and plugin will attempt to display only relevant, public post types that use normal WordPress loop and display methods."
+msgstr ""
+
+#: core/admin/Help.php:104
+msgid "For bbPress forums and topics, plugin has different embed method, and that's why bbPress post types are not displayed among auto embed post types."
+msgstr ""
+
+#: core/admin/MetaBoxes.php:48
+msgid "coreSocial: Sharing"
+msgstr ""
+
+#: core/admin/Plugin.php:152
+msgid "Install"
+msgstr ""
+
+#: core/admin/Plugin.php:155
+msgid "Before you continue, make sure plugin installation was successful."
+msgstr ""
+
+#: core/admin/Plugin.php:159
+msgid "Update"
+msgstr ""
+
+#: core/admin/Plugin.php:162
+msgid "Before you continue, make sure plugin was successfully updated."
+msgstr ""
+
+#: core/admin/Plugin.php:169
+msgid "Overview"
+msgstr ""
+
+#: core/admin/Plugin.php:174
+msgid "About"
+msgstr ""
+
+#: core/admin/Plugin.php:181
+msgid "All the pages registered with the coreSocial for the sharing tracking."
+msgstr ""
+
+#: core/admin/Plugin.php:187
+msgid "Tracking of all the share, like and QR Code display actions."
+msgstr ""
+
+#: core/admin/Plugin.php:196
+msgid "Tools"
+msgstr ""
+
+#: core/admin/Plugin.php:204
+#: core/admin/Settings.php:174
+msgid "Setup Wizard"
+msgstr ""
+
+#: core/admin/Plugin.php:222
+msgid "Selected log entries have been deleted."
+msgstr ""
+
+#: core/admin/Plugin.php:225
+msgid "Selected items have been deleted."
+msgstr ""
+
+#: core/admin/Plugin.php:228
+msgid "Logged entries for selected items have been removed."
+msgstr ""
+
+#: core/admin/Plugin.php:231
+msgid "Selected item has been deleted."
+msgstr ""
+
+#: core/admin/Plugin.php:234
+msgid "Logged entries for selected item have been removed."
+msgstr ""
+
+#: core/admin/Plugin.php:237
+msgid "Cleanup operation has been completed."
+msgstr ""
+
+#: core/admin/Plugin.php:294
+msgid "Follower"
+msgstr ""
+
+#: core/admin/Plugin.php:295
+msgid "Fan"
+msgstr ""
+
+#: core/admin/Plugin.php:296
+msgid "Subscriber"
+msgstr ""
+
+#: core/admin/Plugin.php:297
+msgid "Friend"
+msgstr ""
+
+#: core/admin/Plugin.php:298
+msgid "Patron"
+msgstr ""
+
+#: core/admin/Plugin.php:299
+msgid "Star"
+msgstr ""
+
+#: core/admin/Plugin.php:300
+msgid "Member"
+msgstr ""
+
+#: core/admin/Plugin.php:301
+#: core/table/Log.php:57
+msgid "User"
+msgstr ""
+
+#: core/admin/Plugin.php:110
+msgid "Add New Profile"
+msgstr ""
+
+#: core/admin/Plugin.php:275
+#: core/table/Log.php:53
+msgid "Network"
+msgstr ""
+
+#: core/admin/Plugin.php:283
+msgid "Profile Name"
+msgstr ""
+
+#: core/admin/Plugin.php:286
+msgid "Full Profile URL"
+msgstr ""
+
+#: core/admin/Plugin.php:289
+msgid "Counter"
+msgstr ""
+
+#: core/admin/Plugin.php:292
+msgid "Counter Label"
+msgstr ""
+
+#: core/admin/Plugin.php:310
+msgid "Remove this Profile"
+msgstr ""
+
+#: core/admin/Settings.php:34
+msgid "Logging"
+msgstr ""
+
+#: core/admin/Settings.php:41
+#: core/admin/Settings.php:247
+#: core/admin/Settings.php:288
+#: core/admin/Settings.php:331
+#: core/admin/Settings.php:397
+#: core/admin/Settings.php:465
+#: core/admin/Settings.php:514
+#: core/admin/Settings.php:563
+#: core/admin/Settings.php:612
+#: core/admin/Settings.php:661
+#: core/admin/Settings.php:710
+#: core/admin/Settings.php:752
+#: core/admin/Settings.php:807
+msgid "Active"
+msgstr ""
+
+#: core/admin/Settings.php:41
+msgid "Log each time the share dialog has been activated or the user has Liked the content."
+msgstr ""
+
+#: core/admin/Settings.php:42
+msgid "Visitors IP Hash"
+msgstr ""
+
+#: core/admin/Settings.php:42
+msgid "For visitors (users that are not logged in), store hash value of their IP. This is used only for the Like operations to try and have Like stored for each user or visitor once per item. For share actions, this is not used."
+msgstr ""
+
+#: core/admin/Settings.php:48
+msgid "Showing Counts"
+msgstr ""
+
+#: core/admin/Settings.php:55
+#: core/admin/Settings.php:433
+msgid "Method"
+msgstr ""
+
+#: core/admin/Settings.php:55
+msgid "Some of the networks can return share or engagement counts for your URLs. You can choose how to show the counts, combining internal tracking and online counts."
+msgstr ""
+
+#: core/admin/Settings.php:56
+msgid "Short Form"
+msgstr ""
+
+#: core/admin/Settings.php:56
+msgid "Use short form number display (1000 becomes 1K, 1000000 becomes 1M) where possible to make sure that count doesn't take too much space in the button. Short numbers are always rounded!"
+msgstr ""
+
+#: core/admin/Settings.php:62
+msgid "Share URLs"
+msgstr ""
+
+#: core/admin/Settings.php:69
+msgid "Ignore URL arguments"
+msgstr ""
+
+#: core/admin/Settings.php:69
+msgid "One or more arguments to ignore in the URL when using URL for social sharing."
+msgstr ""
+
+#: core/admin/Settings.php:70
+msgid "Ignore archives Page number"
+msgstr ""
+
+#: core/admin/Settings.php:70
+msgid "For archive pages that support paging, ignore page number in the URL."
+msgstr ""
+
+#: core/admin/Settings.php:71
+msgid "Ignore search Page number"
+msgstr ""
+
+#: core/admin/Settings.php:71
+msgid "For search results pages that support paging, ignore page number in the URL."
+msgstr ""
+
+#: core/admin/Settings.php:77
+msgid "Online Counts Checks"
+msgstr ""
+
+#: core/admin/Settings.php:84
+msgid "Check online counts"
+msgstr ""
+
+#: core/admin/Settings.php:84
+msgid "Some networks have API methods to get number of shares for each URL on the network. Plugin can get those data to use for the display of number of shares."
+msgstr ""
+
+#: core/admin/Settings.php:85
+msgid "Online checks are done in the background, and values retrieved are stored in the database."
+msgstr ""
+
+#: core/admin/Settings.php:86
+msgid "There is no way to do these checks in real time due to the API restrictions networks have in place."
+msgstr ""
+
+#: core/admin/Settings.php:87
+msgid "Depending on the number of pages you have, this process may take a long time, and it is done in background threads."
+msgstr ""
+
+#: core/admin/Settings.php:89
+msgid "Checkup posts only"
+msgstr ""
+
+#: core/admin/Settings.php:89
+msgid "Check online counts only for URLs that belong to posts, pages and custom post types."
+msgstr ""
+
+#: core/admin/Settings.php:90
+msgid "Checkup frequency"
+msgstr ""
+
+#: core/admin/Settings.php:90
+msgid "Check every URL once a week or once a day at the most."
+msgstr ""
+
+#: core/admin/Settings.php:98
+msgid "Social Networks Profiles"
+msgstr ""
+
+#: core/admin/Settings.php:105
+msgid "List of Profiles"
+msgstr ""
+
+#: core/admin/Settings.php:105
+msgid "Add profiles you want to use. You can add multiple profiles for same networks. If you don't provide the name of the profile, plugin will set it to the network name, but, make sure to make them unique so you can identify them easier later."
+msgstr ""
+
+#: core/admin/Settings.php:105
+msgid "For some profiles, instead of URL provide: for Phone - phone number, for Email: email address and for Skype: Skype account."
+msgstr ""
+
+#: core/admin/Settings.php:113
+msgid "Post Title"
+msgstr ""
+
+#: core/admin/Settings.php:120
+msgid "Source"
+msgstr ""
+
+#: core/admin/Settings.php:120
+msgid "Choose how the plugin will get current page title. If the simple method is selected, it will have WordPress function as a fallback."
+msgstr ""
+
+#: core/admin/Settings.php:121
+msgid "Append website name"
+msgstr ""
+
+#: core/admin/Settings.php:121
+msgid "This is recommended for use with Simple method for previous option. And, it might lead to having site name included twice."
+msgstr ""
+
+#: core/admin/Settings.php:129
+msgid "When to load files"
+msgstr ""
+
+#: core/admin/Settings.php:136
+msgid "When needed"
+msgstr ""
+
+#: core/admin/Settings.php:136
+msgid "Load JS and CSS files only when they are needed."
+msgstr ""
+
+#: core/admin/Settings.php:142
+msgid "CSS files"
+msgstr ""
+
+#: core/admin/Settings.php:149
+msgid "Embedded Font"
+msgstr ""
+
+#: core/admin/Settings.php:149
+msgid "The plugin will load font CSS file with WOFF and WOFF2 fonts embedded."
+msgstr ""
+
+#: core/admin/Settings.php:150
+msgid "All in one Packed Styling"
+msgstr ""
+
+#: core/admin/Settings.php:150
+msgid "The plugin will load packed CSS file containing main styling and font with icons."
+msgstr ""
+
+#: core/admin/Settings.php:158
+msgid "Sharing popup"
+msgstr ""
+
+#: core/admin/Settings.php:165
+msgid "Width"
+msgstr ""
+
+#: core/admin/Settings.php:166
+msgid "Height"
+msgstr ""
+
+#: core/admin/Settings.php:181
+msgid "Show Setup Wizard"
+msgstr ""
+
+#: core/admin/Settings.php:181
+msgid "If enabled, the Setup Wizard item will be included in the plugin admin side navigation."
+msgstr ""
+
+#: core/admin/Settings.php:189
+msgid "Like"
+msgstr ""
+
+#: core/admin/Settings.php:192
+#: core/admin/Settings.php:213
+msgid "Available in coreSocial Pro"
+msgstr ""
+
+#: core/admin/Settings.php:196
+#: core/admin/Settings.php:217
+msgid "Information"
+msgstr ""
+
+#: core/admin/Settings.php:196
+msgid "Like button is available in coreSocial Pro version only!"
+msgstr ""
+
+#: core/admin/Settings.php:196
+msgid "Share blocks can include Like button, and each user can Like the post or page only once."
+msgstr ""
+
+#: core/admin/Settings.php:201
+#: core/admin/Settings.php:222
+#: forms/content-wizard-intro.php:33
+msgid "Upgrade to coreSocial Pro"
+msgstr ""
+
+#: core/admin/Settings.php:210
+msgid "QR Code"
+msgstr ""
+
+#: core/admin/Settings.php:217
+msgid "QR Code button is available in coreSocial Pro version only!"
+msgstr ""
+
+#: core/admin/Settings.php:217
+msgid "Share blocks can include QR Code button, and when clicked, this button will display overlay with the QR Code that leads to the page, allowing for quick sharing of the page to a mobile device."
+msgstr ""
+
+#: core/admin/Settings.php:231
+msgid "Email"
+msgstr ""
+
+#: core/admin/Settings.php:236
+msgid "This is main switch to enable the support for Email."
+msgstr ""
+
+#: core/admin/Settings.php:239
+msgid "The Email support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:247
+msgid "This is main switch to enable the MailTo/Email."
+msgstr ""
+
+#: core/admin/Settings.php:248
+#: core/admin/Settings.php:289
+#: core/admin/Settings.php:332
+#: core/admin/Settings.php:398
+#: core/admin/Settings.php:466
+#: core/admin/Settings.php:515
+#: core/admin/Settings.php:564
+#: core/admin/Settings.php:613
+#: core/admin/Settings.php:662
+#: core/admin/Settings.php:711
+msgid "Name"
+msgstr ""
+
+#: core/admin/Settings.php:252
+#: core/admin/Settings.php:293
+#: core/admin/Settings.php:352
+#: core/admin/Settings.php:411
+#: core/admin/Settings.php:478
+#: core/admin/Settings.php:527
+#: core/admin/Settings.php:576
+#: core/admin/Settings.php:625
+#: core/admin/Settings.php:674
+#: core/admin/Settings.php:723
+msgid "Colors"
+msgstr ""
+
+#: core/admin/Settings.php:256
+#: core/admin/Settings.php:297
+#: core/admin/Settings.php:356
+#: core/admin/Settings.php:415
+#: core/admin/Settings.php:482
+#: core/admin/Settings.php:531
+#: core/admin/Settings.php:580
+#: core/admin/Settings.php:629
+#: core/admin/Settings.php:678
+#: core/admin/Settings.php:727
+msgid "Primary"
+msgstr ""
+
+#: core/admin/Settings.php:257
+#: core/admin/Settings.php:298
+#: core/admin/Settings.php:357
+#: core/admin/Settings.php:416
+#: core/admin/Settings.php:483
+#: core/admin/Settings.php:532
+#: core/admin/Settings.php:581
+#: core/admin/Settings.php:630
+#: core/admin/Settings.php:679
+#: core/admin/Settings.php:728
+msgid "Text"
+msgstr ""
+
+#: core/admin/Settings.php:258
+#: core/admin/Settings.php:299
+#: core/admin/Settings.php:358
+#: core/admin/Settings.php:417
+#: core/admin/Settings.php:484
+#: core/admin/Settings.php:533
+#: core/admin/Settings.php:582
+#: core/admin/Settings.php:631
+#: core/admin/Settings.php:680
+#: core/admin/Settings.php:729
+msgid "Icon"
+msgstr ""
+
+#: core/admin/Settings.php:262
+#: core/admin/Settings.php:266
+#: core/admin/Settings.php:303
+#: core/admin/Settings.php:307
+#: core/admin/Settings.php:362
+#: core/admin/Settings.php:366
+#: core/admin/Settings.php:421
+#: core/admin/Settings.php:425
+#: core/admin/Settings.php:488
+#: core/admin/Settings.php:492
+#: core/admin/Settings.php:537
+#: core/admin/Settings.php:541
+#: core/admin/Settings.php:586
+#: core/admin/Settings.php:590
+#: core/admin/Settings.php:635
+#: core/admin/Settings.php:639
+#: core/admin/Settings.php:684
+#: core/admin/Settings.php:688
+#: core/admin/Settings.php:733
+#: core/admin/Settings.php:737
+msgid "Label"
+msgstr ""
+
+#: core/admin/Settings.php:272
+msgid "Print"
+msgstr ""
+
+#: core/admin/Settings.php:277
+msgid "This is main switch to enable the support for Print."
+msgstr ""
+
+#: core/admin/Settings.php:280
+msgid "The Print support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:288
+msgid "This is main switch to enable the Print method."
+msgstr ""
+
+#: core/admin/Settings.php:315
+#: forms/metabox-social.php:23
+msgid "Twitter"
+msgstr ""
+
+#: core/admin/Settings.php:320
+#: core/admin/Settings.php:331
+msgid "This is main switch to enable the support for Twitter."
+msgstr ""
+
+#: core/admin/Settings.php:323
+msgid "The Twitter support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:340
+msgid "Show X Icon"
+msgstr ""
+
+#: core/admin/Settings.php:340
+msgid "Instead of classic Twitter icon, show the X icon."
+msgstr ""
+
+#: core/admin/Settings.php:344
+#: core/admin/Settings.php:402
+#: core/admin/Settings.php:470
+#: core/admin/Settings.php:519
+#: core/admin/Settings.php:568
+#: core/admin/Settings.php:617
+#: core/admin/Settings.php:666
+#: core/admin/Settings.php:715
+#: core/table/Items.php:61
+#: forms/metabox-social.php:15
+msgid "Online Counts"
+msgstr ""
+
+#: core/admin/Settings.php:348
+#: core/admin/Settings.php:474
+#: core/admin/Settings.php:572
+#: core/admin/Settings.php:621
+msgid "Not Available"
+msgstr ""
+
+#: core/admin/Settings.php:348
+msgid "There are no viable ways to get share or engagements counts from Twitter. Their API no longer supports that, and there are no other replacement methods currently working."
+msgstr ""
+
+#: core/admin/Settings.php:374
+#: forms/metabox-social-twitter.php:28
+msgid "Account"
+msgstr ""
+
+#: core/admin/Settings.php:375
+#: forms/metabox-social-twitter.php:11
+msgid "Hashtags"
+msgstr ""
+
+#: core/admin/Settings.php:381
+msgid "Facebook"
+msgstr ""
+
+#: core/admin/Settings.php:386
+#: core/admin/Settings.php:397
+msgid "This is main switch to enable the support for Facebook."
+msgstr ""
+
+#: core/admin/Settings.php:389
+msgid "The Facebook support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:406
+#: core/admin/Settings.php:523
+#: core/admin/Settings.php:670
+#: core/admin/Settings.php:719
+msgid "Available"
+msgstr ""
+
+#: core/admin/Settings.php:406
+msgid "The plugin will attempt to get URL share engagements from Facebook. The App token is required for this operation."
+msgstr ""
+
+#: core/admin/Settings.php:407
+msgid "App Token"
+msgstr ""
+
+#: core/admin/Settings.php:407
+msgid "If you want to be able to get real engagement counts for your URLs from Facebook API, you will need to setup the Facebook App, and get App token for it. If the valid app token is added here, plugin will attempt to get real engagements counts for each shared URL. There is no guarantee that this will return results for every URL. All the results will be cached for the period of 24 hours to avoid Facebook API limits."
+msgstr ""
+
+#: core/admin/Settings.php:429
+msgid "Share Link Format"
+msgstr ""
+
+#: core/admin/Settings.php:433
+msgid "Legacy method still works, but the Facebook may disable it at any time. Application based method requires valid live application APP ID and Redirect URL.  Without these values, plugin will go back to the legacy method."
+msgstr ""
+
+#: core/admin/Settings.php:434
+msgid "APP ID"
+msgstr ""
+
+#: core/admin/Settings.php:434
+msgid "To get APP ID, you need to create Facebook application and configure it in live mode. To start with the application creation go to Facebook Developers website."
+msgstr ""
+
+#: core/admin/Settings.php:435
+msgid "Redirect URL"
+msgstr ""
+
+#: core/admin/Settings.php:435
+msgid "Redirect URL domain has to be in the list of approved domains for your application."
+msgstr ""
+
+#: core/admin/Settings.php:443
+msgid "Hashtag"
+msgstr ""
+
+#: core/admin/Settings.php:443
+msgid "Only available with the Application Share Dialog method! It must include the hash symbol (#)."
+msgstr ""
+
+#: core/admin/Settings.php:449
+msgid "Reddit"
+msgstr ""
+
+#: core/admin/Settings.php:454
+#: core/admin/Settings.php:465
+msgid "This is main switch to enable the support for Reddit."
+msgstr ""
+
+#: core/admin/Settings.php:457
+msgid "The Reddit support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:474
+msgid "There are no viable ways to get share or engagements counts from Reddit. Their API no longer supports that, and there are no other replacement methods currently working."
+msgstr ""
+
+#: core/admin/Settings.php:498
+msgid "Tumblr"
+msgstr ""
+
+#: core/admin/Settings.php:503
+#: core/admin/Settings.php:514
+msgid "This is main switch to enable the support for Tumblr."
+msgstr ""
+
+#: core/admin/Settings.php:506
+msgid "The Tumblr support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:523
+msgid "The plugin will attempt to get share counts from Tumblr. Data will be updated at most only once every 24 hours to avoid hitting Tumblr API limits. No API key is required for this operation at this time."
+msgstr ""
+
+#: core/admin/Settings.php:547
+msgid "LinkedIn"
+msgstr ""
+
+#: core/admin/Settings.php:552
+#: core/admin/Settings.php:563
+msgid "This is main switch to enable the support for LinkedIn."
+msgstr ""
+
+#: core/admin/Settings.php:555
+msgid "The LinkedIn support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:572
+msgid "There are no viable ways to get share or engagements counts from Linkedin. Their API no longer supports that, and there are no other replacement methods currently working."
+msgstr ""
+
+#: core/admin/Settings.php:596
+msgid "Mix"
+msgstr ""
+
+#: core/admin/Settings.php:601
+#: core/admin/Settings.php:612
+msgid "This is main switch to enable the support for Mix."
+msgstr ""
+
+#: core/admin/Settings.php:604
+msgid "The Mix support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:621
+msgid "There are no viable ways to get share or engagements counts from Mix."
+msgstr ""
+
+#: core/admin/Settings.php:645
+msgid "Pinterest"
+msgstr ""
+
+#: core/admin/Settings.php:650
+#: core/admin/Settings.php:661
+msgid "This is main switch to enable the support for Pinterest."
+msgstr ""
+
+#: core/admin/Settings.php:653
+msgid "The Pinterest support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:670
+msgid "The plugin will attempt to get share counts from Pinterest. Data will be updated at most only once every 24 hours to avoid hitting Yummly API limits. No API key is required for this operation at this time."
+msgstr ""
+
+#: core/admin/Settings.php:694
+msgid "Yummly"
+msgstr ""
+
+#: core/admin/Settings.php:699
+#: core/admin/Settings.php:710
+msgid "This is main switch to enable the support for Yummly."
+msgstr ""
+
+#: core/admin/Settings.php:702
+msgid "The Yummly support is currently deactivated. Enable it, to see all the available settings."
+msgstr ""
+
+#: core/admin/Settings.php:719
+msgid "The plugin will attempt to get share counts from Yummly. Data will be updated at most only once every 24 hours to avoid hitting Yummly API limits. No API key is required for this operation at this time."
+msgstr ""
+
+#: core/admin/Settings.php:745
+msgid "Auto Embed"
+msgstr ""
+
+#: core/admin/Settings.php:756
+msgid "Embed"
+msgstr ""
+
+#: core/admin/Settings.php:760
+#: forms/metabox-social-inline.php:20
+msgid "Location"
+msgstr ""
+
+#: core/admin/Settings.php:761
+msgid "Post Types"
+msgstr ""
+
+#: core/admin/Settings.php:769
+msgid "List of Networks"
+msgstr ""
+
+#: core/admin/Settings.php:769
+msgid "Only share networks enabled from the Networks and Internal panels will be listed here! To see additional networks, visit the settings panels to enable or disable them."
+msgstr ""
+
+#: core/admin/Settings.php:774
+msgid "List of Online Networks"
+msgstr ""
+
+#: core/admin/Settings.php:780
+msgid "List of Internal Shares"
+msgstr ""
+
+#: core/admin/Settings.php:793
+msgid "Layout"
+msgstr ""
+
+#: core/admin/Settings.php:797
+msgid "Alignment"
+msgstr ""
+
+#: core/admin/Settings.php:798
+msgid "Buttons Layout"
+msgstr ""
+
+#: core/admin/Settings.php:799
+msgid "Buttons Color"
+msgstr ""
+
+#: core/admin/Settings.php:803
+msgid "Counts"
+msgstr ""
+
+#: core/admin/Settings.php:808
+msgid "Hide if Zero"
+msgstr ""
+
+#: core/admin/Settings.php:814
+#: core/admin/Settings.php:824
+msgid "Styling"
+msgstr ""
+
+#: core/admin/Settings.php:821
+msgid "Font Size"
+msgstr ""
+
+#: core/admin/Settings.php:822
+msgid "Button Size"
+msgstr ""
+
+#: core/admin/Settings.php:823
+msgid "Gap between buttons"
+msgstr ""
+
+#: core/admin/Settings.php:825
+msgid "Rounded Size"
+msgstr ""
+
+#: core/admin/Settings.php:836
+#: forms/metabox-social-inline.php:11
+msgid "Top, before the post content"
+msgstr ""
+
+#: core/admin/Settings.php:837
+#: forms/metabox-social-inline.php:12
+msgid "Bottom, after the post content"
+msgstr ""
+
+#: core/admin/Settings.php:838
+#: forms/metabox-social-inline.php:13
+msgid "Both"
+msgstr ""
+
+#: core/admin/Settings.php:839
+#: forms/metabox-social-inline.php:14
+msgid "Do not add"
+msgstr ""
+
+#: core/admin/Settings.php:853
+msgid "None"
+msgstr ""
+
+#: core/admin/Settings.php:854
+#: forms/content-wizard-miscellaneous.php:41
+msgid "Left"
+msgstr ""
+
+#: core/admin/Settings.php:855
+msgid "Center"
+msgstr ""
+
+#: core/admin/Settings.php:856
+#: forms/content-wizard-miscellaneous.php:40
+msgid "Right"
+msgstr ""
+
+#: core/admin/Settings.php:857
+msgid "Justify"
+msgstr ""
+
+#: core/admin/Settings.php:863
+msgid "Icon Only"
+msgstr ""
+
+#: core/admin/Settings.php:864
+msgid "Icon on the Left"
+msgstr ""
+
+#: core/admin/Settings.php:865
+msgid "Icon on the Right"
+msgstr ""
+
+#: core/admin/Settings.php:871
+msgid "Filled Background"
+msgstr ""
+
+#: core/admin/Settings.php:872
+msgid "Plain Background"
+msgstr ""
+
+#: core/admin/Settings.php:878
+msgid "Normal"
+msgstr ""
+
+#: core/admin/Settings.php:879
+msgid "Rounded"
+msgstr ""
+
+#: core/admin/Settings.php:880
+msgid "Round"
+msgstr ""
+
+#: core/admin/Settings.php:886
+msgid "WordPress page title function"
+msgstr ""
+
+#: core/admin/Settings.php:887
+msgid "Simple Post/Term title only"
+msgstr ""
+
+#: core/admin/Settings.php:893
+msgid "Legacy Share Popup"
+msgstr ""
+
+#: core/admin/Settings.php:894
+msgid "Application Share Dialog"
+msgstr ""
+
+#: core/admin/Settings.php:900
+msgid "Daily"
+msgstr ""
+
+#: core/admin/Settings.php:901
+msgid "Weekly"
+msgstr ""
+
+#: core/basic/AJAX.php:48
+msgid "Invalid Request method."
+msgstr ""
+
+#: core/basic/AJAX.php:58
+#: core/basic/AJAX.php:69
+msgid "Malformed Request."
+msgstr ""
+
+#: core/basic/AJAX.php:88
+#: core/basic/AJAX.php:108
+#: core/basic/AJAX.php:144
+#: core/basic/AJAX.php:164
+#: core/basic/AJAX.php:191
+msgid "Invalid Request."
+msgstr ""
+
+#: core/basic/AJAX.php:97
+msgid "Incomplete Request."
+msgstr ""
+
+#: core/basic/AJAX.php:196
+msgid "Unspecified Problem."
+msgstr ""
+
+#: core/basic/Helper.php:39
+msgid "Online if available, internal as fallback"
+msgstr ""
+
+#: core/basic/Helper.php:40
+msgid "Combined, internal with online"
+msgstr ""
+
+#: core/basic/Helper.php:41
+msgid "Average, internal and online"
+msgstr ""
+
+#: core/basic/Helper.php:42
+msgid "Online only"
+msgstr ""
+
+#: core/basic/Helper.php:43
+msgid "Internal only"
+msgstr ""
+
+#: core/blocks/Register.php:29
+msgid "coreSocial"
+msgstr ""
+
+#: core/table/Items.php:28
+#: core/table/Log.php:28
+msgid "All Items"
+msgstr ""
+
+#: core/table/Items.php:29
+#: core/table/Log.php:29
+msgid "Posts/Pages"
+msgstr ""
+
+#: core/table/Items.php:30
+#: core/table/Log.php:30
+msgid "Terms"
+msgstr ""
+
+#: core/table/Items.php:31
+#: core/table/Log.php:31
+msgid "Custom"
+msgstr ""
+
+#: core/table/Items.php:35
+msgid "All Counts"
+msgstr ""
+
+#: core/table/Items.php:36
+msgid "Without Counts"
+msgstr ""
+
+#: core/table/Items.php:37
+msgid "With Counts"
+msgstr ""
+
+#: core/table/Items.php:56
+#: core/table/Log.php:52
+msgid "ID"
+msgstr ""
+
+#: core/table/Items.php:57
+#: core/table/Log.php:55
+msgid "Item"
+msgstr ""
+
+#: core/table/Items.php:58
+#: core/table/Log.php:128
+msgid "Item ID"
+msgstr ""
+
+#: core/table/Items.php:59
+#: core/table/Log.php:58
+msgid "URL"
+msgstr ""
+
+#: core/table/Items.php:60
+msgid "Share Counts"
+msgstr ""
+
+#: core/table/Items.php:125
+#: core/table/Log.php:132
+msgid "Filter"
+msgstr ""
+
+#: core/table/Items.php:131
+#: core/table/Items.php:156
+#: core/table/Log.php:138
+msgid "Delete"
+msgstr ""
+
+#: core/table/Items.php:132
+#: core/table/Items.php:157
+msgid "Clear"
+msgstr ""
+
+#: core/table/Items.php:133
+#: core/table/Items.php:158
+msgid "Queue Online Counts"
+msgstr ""
+
+#: core/table/Items.php:167
+msgid "Log"
+msgstr ""
+
+#: core/table/Items.php:168
+msgid "View"
+msgstr ""
+
+#: core/table/Items.php:172
+msgid "Edit"
+msgstr ""
+
+#: core/table/Log.php:34
+msgid "All Networks"
+msgstr ""
+
+#: core/table/Log.php:54
+msgid "Module"
+msgstr ""
+
+#: core/table/Log.php:56
+msgid "Real ID"
+msgstr ""
+
+#: core/table/Log.php:59
+msgid "Logged"
+msgstr ""
+
+#: core/table/Log.php:163
+msgid "Visitor"
+msgstr ""
+
+#: forms/content-about-minor.php:11
+msgid "Maintenance and Security Releases"
+msgstr ""
+
+#: forms/content-about-minor.php:13
+msgid "Version"
+msgstr ""
+
+#: forms/content-about-minor.php:20
+msgid "For more information, see <a href='%s'>the changelog</a>."
+msgstr ""
+
+#: forms/content-about-whatsnew.php:26
+msgid "Run Setup Wizard"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:16
+msgid "Overall Statistics"
+msgstr ""
+
+#: forms/content-dashboard-overall.php:23
+msgid "Items with Shares"
+msgstr ""
+
+#: forms/content-dashboard-statistics.php:14
+msgid "Last 7 days Statistics"
+msgstr ""
+
+#: forms/content-dashboard-status.php:14
+msgid "Plugin Status"
+msgstr ""
+
+#: forms/content-dashboard-status.php:9
+#: forms/setup-database.php:36
+msgid "OK"
+msgstr ""
+
+#: forms/content-dashboard-status.php:9
+msgid "Everything appears to be in order."
+msgstr ""
+
+#: forms/content-install.php:24
+#: forms/content-update.php:25
+msgid "All Done"
+msgstr ""
+
+#: forms/content-install.php:27
+msgid "Installation completed."
+msgstr ""
+
+#: forms/content-install.php:32
+#: forms/content-update.php:33
+msgid "Click here to continue"
+msgstr ""
+
+#: forms/content-tools-cleanup.php:11
+#: forms/content-tools-export.php:13
+#: forms/content-tools-remove.php:13
+msgid "Important Information"
+msgstr ""
+
+#: forms/content-tools-cleanup.php:13
+msgid "This tool removes all posts, terms and custom URLs with no shares (online or tracked) from the share tables."
+msgstr ""
+
+#: forms/content-tools-cleanup.php:18
+msgid "Remove all empty Items"
+msgstr ""
+
+#: forms/content-tools-cleanup.php:21
+msgid "All empty share Items"
+msgstr ""
+
+#: forms/content-tools-export.php:15
+msgid "With this tool you export plugin settings into plain text file (JSON serialized content). Do not modify export file! Making changes to export file will make it unusable."
+msgstr ""
+
+#: forms/content-tools-export.php:16
+msgid "This tool doesn't export the social sharing log, or the post metadata settings stored for individual posts."
+msgstr ""
+
+#: forms/content-tools-remove.php:15
+msgid "This tool can remove plugin settings saved in the WordPress options table added by the plugin and you can remove share and likes data gathered by the plugin share blocks."
+msgstr ""
+
+#: forms/content-tools-remove.php:17
+msgid "Deletion operations are not reversible, and it is highly recommended to create database backup before proceeding with this tool."
+msgstr ""
+
+#: forms/content-tools-remove.php:18
+msgid "If you choose to remove plugin settings, once that is done, all settings will be reinitialized to default values if you choose to leave plugin active."
+msgstr ""
+
+#: forms/content-tools-remove.php:23
+msgid "Remove plugin settings"
+msgstr ""
+
+#: forms/content-tools-remove.php:26
+msgid "Main Plugin Settings"
+msgstr ""
+
+#: forms/content-tools-remove.php:29
+msgid "Networks Settings"
+msgstr ""
+
+#: forms/content-tools-remove.php:32
+msgid "Inline Share Settings"
+msgstr ""
+
+#: forms/content-tools-remove.php:38
+msgid "Remove database data and tables"
+msgstr ""
+
+#: forms/content-tools-remove.php:40
+msgid "This will remove all shares and likes data!"
+msgstr ""
+
+#: forms/content-tools-remove.php:42
+msgid "Remove plugins database table and all data in them"
+msgstr ""
+
+#: forms/content-tools-remove.php:45
+msgid "Remove all data from database table"
+msgstr ""
+
+#: forms/content-tools-remove.php:48
+msgid "Database tables that will be affected"
+msgstr ""
+
+#: forms/content-tools-remove.php:57
+msgid "Disable Plugin"
+msgstr ""
+
+#: forms/content-tools-remove.php:60
+msgid "Disable plugin"
+msgstr ""
+
+#: forms/content-tools-updater.php:10
+msgid "Update status"
+msgstr ""
+
+#: forms/content-update.php:28
+msgid "Update completed."
+msgstr ""
+
+#: forms/content-wizard-intro.php:10
+msgid "Welcome to the setup wizard for coreSocial plugin! Here you can quickly set up the plugin, and if you need to adjust all the plugin features in more detail, you can do that later through various plugin panels."
+msgstr ""
+
+#: forms/content-wizard-intro.php:13
+msgid "Using this wizard will reconfigure the plugin. Each option might affect one or more plugin settings."
+msgstr ""
+
+#: forms/content-wizard-intro.php:16
+msgid "Let's start with few basics."
+msgstr ""
+
+#: forms/content-wizard-intro.php:22
+msgid "Do you want to add share block inline for posts?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:24
+msgid "By default, inline share block will be added at the bottom of the post (if the post uses normal WordPress loop where we can hook up and add share block)."
+msgstr ""
+
+#: forms/content-wizard-intro.php:29
+msgid "Do you want to enable Floating share block site wide?"
+msgstr ""
+
+#: forms/content-wizard-intro.php:31
+msgid "Floating share block will be added to every page, and will be attached to the left or right side of the screen, or, for small devices, it will be attached to the bottom of the screen."
+msgstr ""
+
+#: forms/content-wizard-intro.php:32
+msgid "This feature is available in coreSocial Pro edition only!"
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:13
+msgid "The plugin supports multiple networks and internal methods for sharing the content. You can only use some of these, and you can later enable or disable additional networks."
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:19
+msgid "Which share count value you want to display in share buttons?"
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:21
+msgid "With some networks supporting online counts, you can choose how the counts are displayed inside the buttons. Depending on the networks you use, some values can always return zero values."
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:27
+msgid "Select post types to auto insert inline share block."
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:29
+msgid "This will be done only if the single post belonging to one of the selected post types uses normal WordPress loop with default filters allowing the plugin to add the share block."
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:36
+msgid "Which side of the screen you want to have Floating share box?"
+msgstr ""
+
+#: forms/content-wizard-miscellaneous.php:38
+msgid "Floating box can be placed on left or right side of the screen."
+msgstr ""
+
+#: forms/content-wizard-networks.php:12
+msgid "The plugin supports multiple networks and internal methods for sharing the content. You can only use some of these, and you can later enable or disable additional networks. All networks enabled here will be enabled for configuration, and will be included in all the available share methods by default. You can change that later on with the individual share methods settings."
+msgstr ""
+
+#: forms/content-wizard-networks.php:18
+msgid "Select which online services and networks you want to use."
+msgstr ""
+
+#: forms/content-wizard-networks.php:20
+msgid "Both online services and internal share methods will appear in the share block. They are split here for convenience. Some online methods may support getting actual online share count, provided by the network."
+msgstr ""
+
+#: forms/content-wizard-networks.php:30
+msgid "Select which internal share and like methods you want to use."
+msgstr ""
+
+#: forms/content-wizard-networks.php:32
+msgid "Internal like and share methods will rely only on the statistics gathered by the plugin."
+msgstr ""
+
+#: forms/content-wizard-networks.php:40
+msgid "Do you want to enable getting online counts from supported networks?"
+msgstr ""
+
+#: forms/content-wizard-networks.php:42
+msgid "Only some networks have API methods to get actual counts of shared URLs, and even that is not always reliable. The process of getting online data is done in the background to avoid disrupting the page loads. Currently only these networks support this: Facebook (requires API token!), Tumbler, Pinterest and Yummly."
+msgstr ""
+
+#: forms/metabox-social-inline.php:10
+msgid "Inherit global location"
+msgstr ""
+
+#: forms/metabox-social-twitter.php:23
+msgid "Hashtags list"
+msgstr ""
+
+#: forms/metabox-social-twitter.php:25
+msgid "Hashtags should be comma separated."
+msgstr ""
+
+#: forms/metabox-social-twitter.php:30
+msgid "Leave empty to use Twitter account set globally."
+msgstr ""
+
+#: forms/metabox-social-twitter.php:13
+msgid "Use global hashtags and, add hashtags listed here"
+msgstr ""
+
+#: forms/metabox-social-twitter.php:14
+msgid "Use only hashtags listed here"
+msgstr ""
+
+#: forms/metabox-social.php:11
+msgid "Statistics"
+msgstr ""
+
+#: forms/metabox-social.php:19
+msgid "Inline"
+msgstr ""
+
+#: forms/setup-counts.php:12
+msgid "Update counts table"
+msgstr ""
+
+#: forms/setup-counts.php:20
+msgid "Added"
+msgstr ""
+
+#: forms/setup-counts.php:21
+msgid "Updated"
+msgstr ""
+
+#: forms/setup-database.php:12
+msgid "Additional database tables"
+msgstr ""
+
+#: forms/setup-database.php:22
+msgid "Database Upgrade Notices"
+msgstr ""
+
+#: forms/setup-database.php:26
+msgid "Database Tables Check"
+msgstr ""
+
+#: forms/setup-database.php:34
+msgid "ERROR"
+msgstr ""
+
+#: forms/shared-statistics-overall.php:11
+msgid "Total Networks Shares"
+msgstr ""
+
+#: forms/shared-statistics-overall.php:15
+msgid "Total Email Shares"
+msgstr ""
+
+#: forms/shared-statistics-overall.php:19
+msgid "Total Printed"
+msgstr ""
+

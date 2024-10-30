@@ -1,0 +1,110 @@
+.coresocial_share_block {
+    .coresocial_social_network {
+        a {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+
+            i {
+                text-align: center;
+                vertical-align: top;
+                margin: 0 auto;
+            }
+
+            > span {
+                flex-grow: 1;
+                transition: all 0.2s ease 0s;
+                display: flex;
+                justify-content: space-between;
+
+                &:empty {
+                    display: none;
+                }
+
+                span {
+                    vertical-align: bottom;
+                }
+            }
+        }
+
+        &.__not_active {
+            a {
+                cursor: default;
+            }
+        }
+
+        a {
+            i,
+            > span {
+                transition: all 0.2s ease 0s;
+            }
+        }
+    }
+
+    &.__color_fill {
+        @each $network, $color in $networks {
+            .coresocial_network_#{$network} {
+                a {
+                    background: rgba(var(--coresocial-color-#{$network}-primary), 1);
+                    text-decoration: none !important;
+
+                    span {
+                        color: rgba(var(--coresocial-color-#{$network}-text), 1);
+                    }
+
+                    i {
+                        color: rgba(var(--coresocial-color-#{$network}-icon), 1);
+                    }
+                }
+            }
+        }
+
+        .coresocial_social_network {
+            background: var(--coresocial-button-background-filled);
+
+            a {
+                > span {
+                    background: rgba(0, 0, 0, .1);
+                }
+
+                &:hover {
+                    i {
+                        background: rgba(0, 0, 0, .1);
+                    }
+
+                    > span {
+                        background: rgba(0, 0, 0, .2);
+                    }
+                }
+            }
+        }
+    }
+
+    &.__color_plain {
+        @each $network, $color in $networks {
+            .coresocial_network_#{$network} {
+                a {
+                    background: rgba(var(--coresocial-color-#{$network}-primary), .1);
+                    text-decoration: none !important;
+
+                    span {
+                        color: rgba(var(--coresocial-color-#{$network}-primary), .9);
+                    }
+
+                    i {
+                        color: rgba(var(--coresocial-color-#{$network}-primary), 1);
+                    }
+
+                    &:hover {
+                        background: rgba(var(--coresocial-color-#{$network}-primary), .2);
+                        color: rgba(var(--coresocial-color-#{$network}-primary), 1);
+                    }
+                }
+            }
+        }
+
+        .coresocial_social_network {
+            background: var(--coresocial-button-background-plain);
+        }
+    }
+}

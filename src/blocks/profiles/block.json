@@ -1,0 +1,118 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "coresocial/profiles",
+  "category": "coresocial",
+  "title": "Profiles",
+  "description": "Display one or more social network profiles links.",
+  "textdomain": "coresocial",
+  "version": "2.1",
+  "supports": {
+    "customClassName": false
+  },
+  "attributes": {
+    "class": {
+      "type": "string",
+      "default": ""
+    },
+    "block_id": {
+      "type": "string",
+      "default": ""
+    },
+    "show": {
+      "type": "string",
+      "default": "all"
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "default": []
+    },
+    "layout": {
+      "type": "string",
+      "default": "icons"
+    },
+    "style": {
+      "type": "string",
+      "default": "plain"
+    },
+    "label": {
+      "type": "string",
+      "default": "name"
+    },
+    "columns": {
+      "type": "integer",
+      "default": 0,
+      "minimal": 0,
+      "maximal": 4
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "item_align": {
+      "type": "string",
+      "default": "center"
+    },
+    "icon_size": {
+      "type": "integer",
+      "default": 20,
+      "minimal": 1
+    },
+    "font_size": {
+      "type": "integer",
+      "default": 16,
+      "minimal": 1
+    },
+    "icon_border_radius": {
+      "type": "integer",
+      "default": 0,
+      "minimal": 0
+    },
+    "target": {
+      "type": "string",
+      "default": "_blank"
+    },
+    "icon_text": {
+      "type": "string",
+      "default": "inherit"
+    },
+    "icon_text_custom": {
+      "type": "string",
+      "default": "#000"
+    },
+    "icon_background": {
+      "type": "string",
+      "default": "transparent"
+    },
+    "icon_background_custom": {
+      "type": "string",
+      "default": "#FFF"
+    },
+    "icon_hover_text": {
+      "type": "string",
+      "default": "brand"
+    },
+    "icon_hover_text_custom": {
+      "type": "string",
+      "default": "#000"
+    },
+    "icon_hover_background": {
+      "type": "string",
+      "default": "transparent"
+    },
+    "icon_hover_background_custom": {
+      "type": "string",
+      "default": "#FFF"
+    },
+    "rel": {
+      "type": "string",
+      "default": "noopener"
+    }
+  },
+  "editorScript": "coresocial-editor",
+  "editorStyle": "coresocial-editor",
+  "style": "coresocial-main"
+}

@@ -1,0 +1,32 @@
+:root {
+    --coresocial-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    --coresocial-font-weight: 700;
+
+    --coresocial-button-background-plain: #{$button-background-plain};
+    --coresocial-button-background-filled: #{$button-background-filled};
+
+    --coresocial-inline-font-size: #{$inline-font-size};
+    --coresocial-inline-button-size: #{$inline-button-size};
+    --coresocial-inline-button-gap: #{$inline-button-gap-size};
+    --coresocial-inline-rounded: #{$inline-rounded};
+
+    --coresocial-floating-font-size: #{$inline-font-size};
+    --coresocial-floating-button-size: #{$inline-button-size};
+    --coresocial-floating-rounded: #{$inline-rounded};
+
+    --coresocial-profile-font-size: #{$profile-font-size};
+    --coresocial-profile-icon-size: #{$profile-icon-size};
+    --coresocial-profile-button-gap: #{$profile-button-gap};
+    --coresocial-profile-button-padding: #{$profile-button-padding-size};
+    --coresocial-profile-rounded: #{$profile-rounded};
+
+    @each $network, $color in $networks {
+        --coresocial-color-#{$network}-primary: #{$color};
+        --coresocial-color-#{$network}-text: #{$color-text};
+        --coresocial-color-#{$network}-icon: #{$color-icon};
+    }
+
+    @each $network, $color in $brands {
+        --coresocial-color-brand-#{$network}: #{$color};
+    }
+}

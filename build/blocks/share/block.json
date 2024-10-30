@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "coresocial/share",
+  "category": "coresocial",
+  "title": "Share",
+  "description": "Display inline share block with selected networks.",
+  "textdomain": "coresocial",
+  "version": "2.1",
+  "supports": {
+    "customClassName": false
+  },
+  "usesContext": [
+    "postId"
+  ],
+  "attributes": {
+    "class": {
+      "type": "string",
+      "default": ""
+    },
+    "context": {
+      "type": "string",
+      "default": "auto"
+    },
+    "block_id": {
+      "type": "string",
+      "default": ""
+    },
+    "networks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "layout": {
+      "type": "string",
+      "default": "left"
+    },
+    "color": {
+      "type": "string",
+      "default": "fill"
+    },
+    "align": {
+      "type": "string",
+      "default": "center"
+    },
+    "styling": {
+      "type": "string",
+      "default": "normal"
+    },
+    "rounded": {
+      "type": "integer",
+      "default": 4,
+      "minimal": 0
+    },
+    "button_gap": {
+      "type": "integer",
+      "default": 8,
+      "minimal": 0
+    },
+    "button_size": {
+      "type": "integer",
+      "default": 40,
+      "minimal": 16
+    },
+    "font_size": {
+      "type": "integer",
+      "default": 16,
+      "minimal": 4
+    },
+    "share_count_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "share_count_hide_if_zero": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "coresocial-editor",
+  "editorStyle": "coresocial-editor",
+  "style": "coresocial-main"
+}

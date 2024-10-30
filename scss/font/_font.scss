@@ -1,0 +1,39 @@
+i.#{$font-prefix}-icon {
+    font-family: 'coresocial' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Icons */
+@each $icon, $char in $icons {
+    .#{$font-prefix}-icon-#{$icon} {
+        &:before {
+            content: icon($char);
+        }
+    }
+}
+
+/* Full Width */
+.#{$font-prefix-ctrl}-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+/* Sizes */
+.#{$font-prefix-ctrl}-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+@for $i from 2 to 6 {
+    .#{$font-prefix-ctrl}-#{$i}x {
+        font-size: #{$i}em;
+    }
+}

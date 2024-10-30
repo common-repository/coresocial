@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'coresocial';
+    src: url('fonts/coresocial.eot?#{$font-version}');
+    src: url('fonts/coresocial.eot?#{$font-version}#iefix') format('embedded-opentype'),
+    url('fonts/coresocial.woff2?#{$font-version}') format('woff2'),
+    url('fonts/coresocial.woff?#{$font-version}') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}

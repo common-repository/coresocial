@@ -1,0 +1,25 @@
+.coresocial_clearfix {
+    &:before {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+}
+
+.coresocial_social_network {
+    a {
+        display: block;
+    }
+
+    .__label,
+    .__count {
+        font-family: var(--coresocial-font-family);
+        font-size: var(--coresocial-inline-font-size);
+        font-weight: var(--coresocial-font-weight);
+    }
+}

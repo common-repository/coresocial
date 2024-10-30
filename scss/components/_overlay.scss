@@ -1,0 +1,44 @@
+#coresocial-overlay-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000000;
+
+    .__close {
+        padding: 48px 48px 0;
+        width: 100%;
+        text-align: right;
+
+        svg {
+            height: 36px;
+            width: 36px;
+            cursor: pointer;
+        }
+    }
+
+    .__inside {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #coresocial-overlay-element {
+            background: #FFF;
+            max-width: 400px;
+            max-height: 400px;
+            width: 90%;
+            height: auto;
+
+            svg {
+                display: block;
+                width: 100% !important;
+                height: auto !important;
+            }
+        }
+    }
+}

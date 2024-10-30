@@ -1,0 +1,85 @@
+$networks: (
+        twitter: "29, 161, 242",
+        facebook: "59, 89, 152",
+        tumblr: "53, 70, 92",
+        linkedin: "0, 119, 181",
+        reddit: "255, 69, 0",
+        mix: "253, 130, 53",
+        pinterest: "230, 0, 35",
+        buffer: "89, 98, 106",
+        yummly: "255, 97, 32",
+        mailto: "255, 20, 147",
+        like: "63, 137, 37",
+        printer: "0, 122, 122",
+        qrcode: "97, 7, 97"
+);
+
+$brands: (
+        amazon: "#ff9900",
+        blogger: "#f57d00",
+        buffer: "#76b852",
+        buymeacoffee: "#fed200",
+        dev: "#05cc47",
+        dev4press: "#2288cc",
+        deviantart: "#05cc47",
+        discord: "#7289da",
+        email: "#6688aa",
+        mailto: "#ff1493",
+        evernote: "#2facb2",
+        facebook: "#3b5998",
+        getpocket: "#ef4056",
+        github: "#6e5494",
+        gitlab: "#fc6d26",
+        google: "#4285f4",
+        instagram: "#e1306c",
+        like: "#3f8925",
+        linkedin: "#0077b5",
+        medium: "#00ab6c",
+        mix: "#fd8235",
+        patreon: "#f96854",
+        paypal: "#012169",
+        pinterest: "#e60023",
+        phone: "#333333",
+        qrcode: "#610761",
+        reddit: "#ff4500",
+        skype: "#00aff0",
+        slack: "#6ecadc",
+        stackexchange: "#376db6",
+        stackoverflow: "#f48024",
+        telegram: "#0088cc",
+        threads: "#000000",
+        tiktok: "#010101",
+        trello: "#f2d600",
+        tumblr: "#35465c",
+        twitter: "#1da1f2",
+        vimeo: "#1ab7ea",
+        wordpress: "#21759b",
+        x: "#14171a",
+        yelp: "#af0606",
+        youtube: "#ff0000",
+        yummly: "#e16120"
+);
+
+$color-text: "255, 255, 255" !default;
+$color-icon: "255, 255, 255" !default;
+
+$font-size: 16px !default;
+$button-size: 40px !default;
+
+$button-background-plain: rgba(255, 255, 255, .95) !default;
+$button-background-filled: transparent !default;
+
+$inline-font-size: $font-size !default;
+$inline-button-size: $button-size !default;
+$inline-button-gap-size: 8px !default;
+$inline-rounded: 4px !default;
+
+$profile-font-size: $font-size !default;
+$profile-icon-size: $font-size + 5px !default;
+$profile-button-gap: .5em !default;
+$profile-button-padding-size: .5em !default;
+$profile-rounded: 0px !default;
+
+$font-version: "1.0";
+$font-prefix: coresocial;
+$font-prefix-ctrl: coresocial-mod;

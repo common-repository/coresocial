@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "coresocial";
+  src: url("fonts/coresocial.eot?1.0");
+  src: url("fonts/coresocial.eot?1.0#iefix") format("embedded-opentype"), url("fonts/coresocial.woff2?1.0") format("woff2"), url("fonts/coresocial.woff?1.0") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+i.coresocial-icon {
+  font-family: "coresocial" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Icons */
+.coresocial-icon-amazon:before {
+  content: "\f101";
+}
+
+.coresocial-icon-blogger:before {
+  content: "\f102";
+}
+
+.coresocial-icon-buffer:before {
+  content: "\f103";
+}
+
+.coresocial-icon-buymeacoffee:before {
+  content: "\f104";
+}
+
+.coresocial-icon-dev:before {
+  content: "\f105";
+}
+
+.coresocial-icon-dev4press:before {
+  content: "\f106";
+}
+
+.coresocial-icon-deviantart:before {
+  content: "\f107";
+}
+
+.coresocial-icon-discord:before {
+  content: "\f108";
+}
+
+.coresocial-icon-envelope:before {
+  content: "\f109";
+}
+
+.coresocial-icon-mailto:before {
+  content: "\f109";
+}
+
+.coresocial-icon-evernote:before {
+  content: "\f10a";
+}
+
+.coresocial-icon-facebook:before {
+  content: "\f10b";
+}
+
+.coresocial-icon-getpocket:before {
+  content: "\f10c";
+}
+
+.coresocial-icon-github:before {
+  content: "\f10d";
+}
+
+.coresocial-icon-gitlab:before {
+  content: "\f10e";
+}
+
+.coresocial-icon-google:before {
+  content: "\f10f";
+}
+
+.coresocial-icon-heart:before {
+  content: "\f110";
+}
+
+.coresocial-icon-like:before {
+  content: "\f110";
+}
+
+.coresocial-icon-instagram:before {
+  content: "\f111";
+}
+
+.coresocial-icon-linkedin:before {
+  content: "\f112";
+}
+
+.coresocial-icon-medium:before {
+  content: "\f113";
+}
+
+.coresocial-icon-mix:before {
+  content: "\f114";
+}
+
+.coresocial-icon-patreon:before {
+  content: "\f115";
+}
+
+.coresocial-icon-paypal:before {
+  content: "\f116";
+}
+
+.coresocial-icon-phone:before {
+  content: "\f117";
+}
+
+.coresocial-icon-pinterest:before {
+  content: "\f118";
+}
+
+.coresocial-icon-printer:before {
+  content: "\f119";
+}
+
+.coresocial-icon-qrcode:before {
+  content: "\f11a";
+}
+
+.coresocial-icon-reddit:before {
+  content: "\f11b";
+}
+
+.coresocial-icon-skype:before {
+  content: "\f11c";
+}
+
+.coresocial-icon-slack:before {
+  content: "\f11d";
+}
+
+.coresocial-icon-stackexchange:before {
+  content: "\f11e";
+}
+
+.coresocial-icon-stackoverflow:before {
+  content: "\f11f";
+}
+
+.coresocial-icon-telegram:before {
+  content: "\f120";
+}
+
+.coresocial-icon-threads:before {
+  content: "\f121";
+}
+
+.coresocial-icon-thumb:before {
+  content: "\f122";
+}
+
+.coresocial-icon-tiktok:before {
+  content: "\f123";
+}
+
+.coresocial-icon-trello:before {
+  content: "\f124";
+}
+
+.coresocial-icon-tumblr:before {
+  content: "\f125";
+}
+
+.coresocial-icon-twitter:before {
+  content: "\f126";
+}
+
+.coresocial-icon-vimeo:before {
+  content: "\f127";
+}
+
+.coresocial-icon-wordpress:before {
+  content: "\f128";
+}
+
+.coresocial-icon-x:before {
+  content: "\f129";
+}
+
+.coresocial-icon-yelp:before {
+  content: "\f12a";
+}
+
+.coresocial-icon-youtube:before {
+  content: "\f12b";
+}
+
+.coresocial-icon-yummly:before {
+  content: "\f12c";
+}
+
+/* Full Width */
+.coresocial-mod-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* Sizes */
+.coresocial-mod-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.coresocial-mod-2x {
+  font-size: 2em;
+}
+
+.coresocial-mod-3x {
+  font-size: 3em;
+}
+
+.coresocial-mod-4x {
+  font-size: 4em;
+}
+
+.coresocial-mod-5x {
+  font-size: 5em;
+}

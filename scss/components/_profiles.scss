@@ -1,0 +1,177 @@
+ul.coresocial-profiles-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--coresocial-profile-button-gap);
+    margin: 0;
+    padding: 0;
+
+    &.coresocial-list-align-left {
+        justify-content: flex-start;
+    }
+
+    &.coresocial-list-align-center {
+        justify-content: center;
+    }
+
+    &.coresocial-list-align-right {
+        justify-content: flex-end;
+    }
+
+    &.coresocial-list-align-justify {
+        li {
+            flex-grow: 1;
+        }
+
+        &.coresocial-columns-4 {
+            li {
+                flex-basis: calc((100% - 3 * var(--coresocial-profile-button-gap)) / 4);
+
+                @media screen and (max-width: 767px) {
+                    flex-basis: calc((100% - var(--coresocial-profile-button-gap)) / 2);
+                }
+            }
+        }
+
+        &.coresocial-columns-3 {
+            li {
+                flex-basis: calc((100% - 2 * var(--coresocial-profile-button-gap)) / 3);
+            }
+        }
+
+        &.coresocial-columns-2 {
+            li {
+                flex-basis: calc((100% - var(--coresocial-profile-button-gap)) / 2);
+            }
+        }
+
+        &.coresocial-columns-1 {
+            li {
+                flex-basis: 100%;
+            }
+        }
+
+        @media screen and (max-width: 359px) {
+            &.coresocial-columns-4,
+            &.coresocial-columns-3,
+            &.coresocial-columns-2,
+            &.coresocial-columns-1 {
+                li {
+                    flex-basis: 100%;
+                }
+            }
+        }
+    }
+
+    li {
+        display: block;
+        list-style: none;
+        padding: 0;
+
+        a {
+            border-radius: var(--coresocial-profile-rounded);
+            font-weight: var(--coresocial-font-weight);
+            font-size: var(--coresocial-profile-font-size);
+            display: flex;
+            align-items: center;
+            width: auto;
+            min-width: 1.7em;
+            line-height: 1.5;
+            text-decoration: none;
+            text-transform: none;
+
+            > i {
+                display: block;
+                box-sizing: content-box;
+                text-align: center;
+                width: 1.28571429em;
+                font-size: var(--coresocial-profile-icon-size);
+                padding: 0 var(--coresocial-profile-button-padding);
+            }
+
+            > span {
+                padding: var(--coresocial-profile-button-padding);
+                font-family: var(--coresocial-font-family);
+
+                .__followers {
+                    font-weight: normal;
+
+                    strong {
+                        font-weight: var(--coresocial-font-weight);
+                    }
+                }
+            }
+        }
+
+        &.coresocial-profile-align-center {
+            a {
+                justify-content: center;
+            }
+        }
+
+        &.coresocial-profile-align-left {
+            a {
+                justify-content: flex-start;
+            }
+        }
+
+        &.coresocial-profile-align-right {
+            a {
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    &.coresocial-label-name-followers {
+        .__followers {
+            font-size: .9em;
+        }
+    }
+
+    &.coresocial-layout-icon {
+        li a {
+            padding: var(--coresocial-profile-button-padding);
+
+            > i {
+                padding: 0;
+            }
+        }
+    }
+
+    &.coresocial-layout-icon-top {
+        li a {
+            flex-direction: column;
+
+            > i {
+                padding: var(--coresocial-profile-button-padding) 0;
+            }
+        }
+    }
+
+    &.coresocial-layout-icon-left {
+        li a {
+            flex-direction: row;
+        }
+    }
+
+    &.coresocial-layout-icon-right {
+        li a {
+            flex-direction: row-reverse;
+            gap: calc(var(--coresocial-profile-button-padding) / 2);
+        }
+    }
+
+    &.coresocial-style-shaded {
+        li a > span {
+            background: rgba(0, 0, 0, .1);
+            flex-grow: 1;
+        }
+
+        &.coresocial-layout-icon-top {
+            li a > span {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
